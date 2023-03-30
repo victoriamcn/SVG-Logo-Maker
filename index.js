@@ -2,7 +2,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const { colors } = require('./lib/colors.js');
-const { generateSVG } = require('./lib/generateSVG.js');
+const { generateSvg } = require('./lib/generateSvg.js');
 const { shapes } = require('./lib/shapes.js');
 
 // function to initialize app
