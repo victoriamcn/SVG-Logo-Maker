@@ -3,7 +3,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const { colors } = require('./lib/colors.js');
 const { generateSvg } = require('./lib/generateSvg.js');
-const { shapes } = require('./lib/shapes.js');
+const { Triangle, Circle, Square } = require('./lib/shapes.js');
 
 // function to initialize app
 function init() {
@@ -33,9 +33,19 @@ inquirer
     ])
     .then((response) => {
         const logoPath = './dist/logo.svg';
-        const genLogo = makeSvg(response);
+        let shape;
 
-        writeToFile(logoPath, generateSVG(genLogo), (err) =>
+        if(response.shape === 'Triangle') {
+            shape = new Triangle();
+        } else if(response.shape === 'Square') {
+            shape = new Square();
+        } else {
+            shape = new Circle();
+        }
+
+        shape.set(response.shapecolor)
+
+        fs.writeFile(logoPath, generateSvg(shape, response.textcolor, response.text), (err) =>
         err ? console.error(err) : console.log('Successfully generated SVG logo.')
         );
     })
