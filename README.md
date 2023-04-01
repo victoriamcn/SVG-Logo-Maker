@@ -76,6 +76,9 @@ This project is licensed under MIT.
 - For SVG code: [johnxlai on Git Hub](https://github.com/johnxlai/svg-logo-maker/blob/main/lib/generateSvg.js)
 
 ### Tutorials
-- W3 Schools: [SVG Reference](https://www.w3schools.com/graphics/svg_reference.asp) and [JavaScript Classes](https://www.w3schools.com/js/js_classes.asp)
-- Mozilla SVG: [Basic Shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes) and [Texts](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts)
-- StackOverflow: [Create an equilatoeral triangle using SVG in HTML with base and height 100px](https://stackoverflow.com/questions/54955165/create-a-equilateral-triangle-using-svg-in-html-with-base-and-height-100px) and [SVG - how to center a rectangle?](https://stackoverflow.com/questions/53946107/svg-how-to-center-a-rectangle)
+- W3 Schools: [SVG Reference](https://www.w3schools.com/graphics/svg_reference.asp) 
+- W3 Schools:  [JavaScript Classes](https://www.w3schools.com/js/js_classes.asp)
+- Mozilla SVG: [Basic Shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
+- Mozilla SVG: [Texts](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts)
+- StackOverflow: [Create an equilatoeral triangle using SVG in HTML with base and height 100px](https://stackoverflow.com/questions/54955165/create-a-equilateral-triangle-using-svg-in-html-with-base-and-height-100px)
+- StackOverflow: [SVG - how to center a rectangle?](https://stackoverflow.com/questions/53946107/svg-how-to-center-a-rectangle)
