@@ -11,6 +11,7 @@ This project is a Node.js command-line application that takes in user input to g
 - [Installation](#installation)
 - [Tests](#tests)
 - [Usage](#usage)
+- [Demo](#demo)
 - [Contributing](#contributing)
 - [Questions](#questions)
 - [License](#license)
@@ -35,17 +36,24 @@ npm i inquirer@8.2.4
 
 To test please run
 ```
-npm test
+npm run test
 ```
 
 ## Usage
 
 1. Clone this repository to your local computer.
 2. Open the repo in VS Code.
-3. Open the index.js file in the Integrated Terminal.
-4. Type ‘node index.js’ in the command line.
-5. Use the command line to answer the prompts.
-6. Use the SVG [extension](https://marketplace.visualstudio.com/items?itemName=jock.svg) to preview the .svg file.
+3. Download the SVG [extension](https://marketplace.visualstudio.com/items?itemName=jock.svg) by JOCK to be able to preview the .svg file (#7).
+4. Open the index.js file in the Integrated Terminal.
+5. Type the following in the command line:
+```
+node index.js
+```
+6. Use the command line to answer the prompts.
+7. In the dist folder, the generated file is ***"logo.svg"***.
+8. Right-click ***"logo.svg"*** and select "Preview SVG" to preview the file as an image.
+
+## Demo
 
 Click to watch the [demo]().
 
@@ -55,14 +63,14 @@ To contribute to this project, you may create a git fork.
 
 ## Questions
 
-If you have any questions or concerns, you may reach me at vmcnorrill@gmail.com.
+If you have any questions or concerns, you may reach me at ***vmcnorrill@gmail.com***.
 
-To view my other projects, you can visit my Git Hub profile: [victoriamcn](https://github.com/victoriamcn)
+To view my other projects, you may visit my Git Hub profile: [victoriamcn](https://github.com/victoriamcn).
 
 
 ## License
 
-This project is licensed under MIT.
+***This project is licensed under MIT.*** [Click](https://pitt.libguides.com/openlicensing/MIT#:~:text=Users%20of%20software%20using%20an,and%20the%20X%20Windows%20System.) here to view the license documentation or go to the [license file](https://github.com/victoriamcn/SVG-Logo-Maker/blob/main/LICENSE) in this repository.
 
 ## Credits
 
@@ -80,5 +88,5 @@ This project is licensed under MIT.
 - W3 Schools:  [JavaScript Classes](https://www.w3schools.com/js/js_classes.asp)
 - Mozilla SVG: [Basic Shapes](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
 - Mozilla SVG: [Texts](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts)
-- StackOverflow: [Create an equilatoeral triangle using SVG in HTML with base and height 100px](https://stackoverflow.com/questions/54955165/create-a-equilateral-triangle-using-svg-in-html-with-base-and-height-100px)
+- StackOverflow: [Create an equilateral triangle using SVG in HTML with base and height 100px](https://stackoverflow.com/questions/54955165/create-a-equilateral-triangle-using-svg-in-html-with-base-and-height-100px)
 - StackOverflow: [SVG - how to center a rectangle?](https://stackoverflow.com/questions/53946107/svg-how-to-center-a-rectangle)
