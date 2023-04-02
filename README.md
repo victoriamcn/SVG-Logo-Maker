@@ -99,3 +99,4 @@ To view my other projects, you may visit my Git Hub profile: [victoriamcn](https
 - Mozilla SVG: [Texts](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts)
 - StackOverflow: [Create an equilateral triangle using SVG in HTML with base and height 100px](https://stackoverflow.com/questions/54955165/create-a-equilateral-triangle-using-svg-in-html-with-base-and-height-100px)
 - StackOverflow: [SVG - how to center a rectangle?](https://stackoverflow.com/questions/53946107/svg-how-to-center-a-rectangle)
+- Flavio Copes: [Testing JavaScript with Jest](https://flaviocopes.com/jest/)
