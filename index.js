@@ -46,12 +46,12 @@ function init() {
             shape.set(response.shapecolor)
 
             fs.writeFile(logoPath, generateSvg(shape, response.textcolor, response.text), (err) =>
-                err ? console.error(err) : console.log('Successfully generated SVG logo.')
+                Error ? console.error(Error) : console.log('Successfully generated SVG logo.')
             );
         })
-        .catch((err) => {
+        .catch((Error) => {
             console.log('Oops. Something went wrong.');
-            console.info(err)
+            console.info(Error)
         });
 }
 
