@@ -31,15 +31,10 @@ function init() {
             },
         ])
         .then((response) => {
-            //error for more than 3 characters
-            if (text.length > 3) {
-                console.log('Text exceeds character amount. Please type no more than 3 characters.');
-                throw new Error ("Text exceeds character amount. Please type no more than 3 characters.");
-            }
             // Path to place gen logo in 
             const logoPath = './dist/logo.svg';
             let shape;
-            // hot to generate the shape
+            //generate the shape
             if (response.shape === 'Triangle') {
                 shape = new Triangle();
             } else if (response.shape === 'Square') {
