@@ -7,7 +7,7 @@ describe('Shape', () => {
         Shape.Triangle.shapeColor = "white"
         const shapeStr = `<polygon fill="white" points="50 15, 100 100, 0 100" />`
 
-        expect(triangle.render().toMatch(shapeStr));
+        expect(triangle.render().match(shapeStr));
     })
 })
 
