@@ -34,7 +34,9 @@ npm i inquirer@8.2.4
 
 ## Tests
 
-To test please run
+- Testing: [jest](https://www.npmjs.com/package/jest)
+
+To test please run:
 ```
 npm run test
 ```
@@ -45,7 +47,11 @@ npm run test
 2. Open the repo in VS Code.
 3. Download the SVG [extension](https://marketplace.visualstudio.com/items?itemName=jock.svg) by JOCK to be able to preview the .svg file (#7).
 4. Open the index.js file in the Integrated Terminal.
-5. Type the following in the command line:
+5. Install [***inquirer***](https://www.npmjs.com/package/inquirer) by typing the following in the command line:
+```
+npm i inquirer@8.2.4
+```
+5. Once you have installed inquirer, type the following in the command line:
 ```
 node index.js
 ```
@@ -78,6 +84,9 @@ To view my other projects, you may visit my Git Hub profile: [victoriamcn](https
 
 - My instructor, [Saurav Khatiwada](https://github.com/khatiwadasaurav).
 - My tutor, [Neil Dhand](https://github.com/neildhand).
+
+### npm
+
 
 ### Example Code
 - For JS Classes: [ThomasCalle on GitHub](https://github.com/ThomasCalle/Thomas-Object-Oriented-Programming-SVG-Logo-Maker/blob/main/index.js)
