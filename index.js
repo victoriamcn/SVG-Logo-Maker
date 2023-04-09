@@ -1,7 +1,7 @@
 // linking files system, inquirer, lib/
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { generateSvg } = require('./lib/generateSvg.js');
+const generateSvg = require('./lib/generateSvg.js');
 const { Triangle, Circle, Square } = require('./lib/shapes.js');
 
 // function to initialize app
