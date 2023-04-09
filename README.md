@@ -61,7 +61,7 @@ node index.js
 
 ## Demo
 
-Click to watch the [demo](https://youtu.be/_wRz3mtKcAc) on YouTube.
+Click to watch the [demo](https://www.youtube.com/watch?v=_wRz3mtKcAc) on YouTube.
 
 ## Contributing
 
