@@ -7,14 +7,14 @@ describe('Shape', () => {
         Shape.Triangle.shapeColor = "white"
         const shapeStr = `<polygon fill="white" points="50 15, 100 100, 0 100" />`
 
-        expect(circle.render().match(shapeStr));
+        expect(triangle.render().match(shapeStr));
     })
     it('Should render the color for the circle', () => {
         const circle = new Shape.Circle();
         Shape.Circle.shapeColor = "white"
         const shapeStr = `circle fill="white" cx="50" cy="50" r="50"  />`
 
-        expect(triangle.render().match(shapeStr));
+        expect(circle.render().match(shapeStr));
     })
     it('Should render the color for the square', () => {
         const square = new Shape.Square();
